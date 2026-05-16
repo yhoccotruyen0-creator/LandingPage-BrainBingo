@@ -1,0 +1,8 @@
+{
+  "name": "Remix: Superbrain Math System",
+  "description": "An AI-powered mental math practice platform for children, designed to build habit, motivation, and calculation skills through gamification.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

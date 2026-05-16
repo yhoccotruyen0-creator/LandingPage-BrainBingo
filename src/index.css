@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Quicksand", ui-sans-serif, system-ui, sans-serif;
+  
+  --color-primary: #1b5100;
+  --color-on-primary: #ffffff;
+  --color-primary-container: #276c00;
+  --color-on-primary-container: #9fec78;
+  
+  --color-secondary: #964900;
+  --color-on-secondary: #ffffff;
+  --color-secondary-container: #ff8928;
+  --color-on-secondary-container: #642f00;
+
+  --color-surface: #f6fbed;
+  --color-on-surface: #181d15;
+  --color-surface-container: #ebf0e2;
+  --color-surface-container-low: #f0f5e8;
+  --color-on-surface-variant: #41493b;
+  
+  --color-forest-green: #276c00;
+  --color-vibrant-orange: #f58220;
+  --color-deep-moss: #181d14;
+  --color-outline-variant: #c0cab6;
+}
+
+@layer base {
+  body {
+    @apply bg-surface text-on-surface font-sans;
+  }
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
